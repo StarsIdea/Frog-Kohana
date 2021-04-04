@@ -1,0 +1,3 @@
+INSERT INTO `users` VALUES(1, '', 'admin', 'e5eb0f2e594e8d45a9b9595089054a481db196be577452c6e66f79d6174253ab', 0, NULL);
+INSERT INTO `roles_users` VALUES(1, 1);
+INSERT INTO `roles_users` VALUES(1, 2);

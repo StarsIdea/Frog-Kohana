@@ -1,2 +1,4 @@
-application/cache/*
-application/logs/*
+rides/application/cache/*
+rides/application/logs/*
+config.php
+rides/application/config/*

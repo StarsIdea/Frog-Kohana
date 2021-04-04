@@ -1,0 +1,67 @@
+#nav,
+#dbmenu,
+ul.breadcrumbs,
+#classic,
+#logo a:last-child,
+#splash,
+.alphabet-pager,
+.kohana,
+#search,
+#footer
+{
+  display: none;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 a {
+  color: black;
+}
+
+thead {
+  text-transform: uppercase;
+}
+
+thead tr:first-child th {
+  border-top: 0;
+}
+
+thead th {
+  vertical-align: bottom;
+}
+
+th, td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+a, a:visited {
+  color: #003abf;
+  text-decoration: none;
+}
+
+span.meta {
+  color: #666;
+  font-size: 14px;
+}
+
+.page h1 { font-size:38px; margin: 26px 0 13px 0; }
+.page h2 { font-size:32px; margin: 26px 0 13px 0; }
+.page h3 { font-size:28px; margin: 26px 0 13px 0; }
+.page h4 { font-size:24px; margin: 26px 0 13px 0; }
+.page h5 { font-size:16px; margin: 26px 0 13px 0; }
+.page h6 { font-size:14px; margin: 26px 0 13px 0; }
+
+table.wide tr {
+  border-bottom: 1px solid #888;
+}
+
+/*table.nowrap tr td,
+table.wide tr td {
+	white-space: nowrap;
+}*/

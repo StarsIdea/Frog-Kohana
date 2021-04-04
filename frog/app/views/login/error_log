@@ -1,0 +1,1 @@
+[13-Jan-2010 02:54:21] PHP Fatal error:  Call to undefined function  __() in /home/eralbert/public_html/frog/app/views/login/login.php on line 40

@@ -1,0 +1,7 @@
+.hg
+.hgignore
+era.sublime-project
+era.sublime-workspace
+.DS_Store
+.htaccess
+build/*

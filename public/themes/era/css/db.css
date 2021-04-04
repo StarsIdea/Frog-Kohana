@@ -1,0 +1,79 @@
+
+/* ERA DB Styling */
+
+#dbmenu { height: 35px; width: 100%; background: #f8efd1; line-height: 37px; }
+#dbmenu ul { margin: 0 11px;}
+#dbmenu li { float: left; font-size: 11px; }
+#dbmenu li.right { float: right; }
+#dbmenu li.current { background: #fff; }
+#dbmenu a { display: block; height: 35px; padding: 0 15px; color: #0049a6; cursor: pointer; font-weight: bold; text-transform: uppercase; }
+#dbmenu a:hover { background: #0049a6; color: #fff; }
+
+
+.page { color: #333; float: left; font: 13px Tahoma, sans-serif; line-height: 18px; padding: 0 25px 40px 25px; width: 560px; }
+.page.wide { width: 820px; }
+.page p { margin-bottom: 1em; }
+
+.page h1 { font-size:28px; margin: 26px 0 13px 0; }
+.page h2 { font-size:24px; margin: 26px 0 13px 0; }
+.page h3 { font-size:20px; margin: 26px 0 13px 0; }
+.page h4 { font-size:18px; margin: 26px 0 13px 0; }
+.page h5 { font-size:16px; margin: 26px 0 13px 0; }
+.page h6 { font-size:14px; margin: 26px 0 13px 0; }
+
+.page ul, .page ol { list-style-position:outside; margin: 0 0 2em 2em; }
+.page ul { list-style-type: disc; }
+.page ol { list-style-type: decimal; }
+.page blockquote { margin:0 0 2em .5em; padding:0 15px; border-left: 5px solid #eee; }
+
+.page table { margin-bottom: 1em; }
+.page table th { padding: 3px 1em; text-transform: uppercase; font-size: .8em; background-color: #eee; }
+.page table tr { border-bottom: 1px solid #eee; }
+.page table td { padding: 0 1em; line-height: 2em; }
+
+.address { display: block; margin: -12px 0 17px; color: #999; font-size: 14px; }
+
+ul.alphabetical, ul.pagination, ul.filter { height: 25px; margin: 0; }
+.alphabetical li, .pagination li, .filter li { height: 25px; float: left; font-size: 11px; font-weight: bold; list-style: none; }
+.alphabetical a, .pagination a { color: #999; padding: 4px; }
+.alphabetical a:hover, .alphabetical a.current, .pagination a:hover, .pagination a.current { color: #0049a6; }
+
+a.prev, a.next { margin: 0 5px; padding: 7px 12px; color: #0049a6; }
+a.prev:hover, a.next:hover { background: #0049a6; color: #fff; }
+
+
+ul.alphabetical { height: 30px; margin-top: 30px; line-height: 30px; }
+
+ul.filter { height: 30px; width: 200px; float: right; margin-top: -30px; }
+ul.filter li { float: right; }
+.filter a { padding: 10px; color: #0049a6; }
+.filter a.current, .filter a:hover { background: #0049a6; color: #fff; }
+
+table.db { width: 100%; }
+table.db th { padding: 7px 10px; background-color: #0049a6; color: #fff; text-align: left; }
+table.db td { padding: 2px 10px; }
+table.db .name { width: 200px; }
+table.db .date { width: 100px; }
+table.db .data { width: 50px; }
+
+h4.grey { color: #999; font-size: 12px; }
+
+#search { float: right; }
+#search form { margin: -1px 0 0; padding: 0; }
+#search input { width: 200px; background: #efefef url('img/search.gif') no-repeat 98% 50%; border: 1px solid #beb79f; padding: 5px; }
+
+/* homepage */
+
+#linklist { margin: 30px 0 40px; overflow: hidden; }
+#linklist li { list-style: none; margin-right: 10px; float: left; }
+#linklist a { display: table-cell; background: #fafafa url('img/icons.png') no-repeat 8px 14px; border: 1px solid #ccc; font-size: 16px; padding: 13px; padding-left: 32px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+#linklist a:hover { border: 1px solid #ddd; background-color: #fefefe; color: #004ca6; }
+#linklist .horse { background-position: 8px -23px; }
+#linklist .event { background-position: 8px -58px; }
+#linklist .leaderboard { background-position: 8px -94px; }
+
+/* DB Forms */
+
+form { margin: 40px 0; }
+label { font-weight: bold; padding-right: 5px; }
+input.db { height: 19px; width: 300px; margin: 4px 0; padding: 4px; font-size: 14px; }
